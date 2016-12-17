@@ -1,0 +1,161 @@
+
+
+/* __________ SUGGERIMENTI ___________*/
+
+#sugg h2{
+	font-size: 40px;
+	padding: 30px;
+	color: #15424f;
+}
+
+#sugg{
+	text-align: center;
+	padding-bottom: 50px;
+}
+
+#sugg img{
+	width: 700px; 
+	height: 295px;	
+}
+
+
+/* __________ GENERI PRINCIPALI ________ */
+
+#typeHome {
+	width: 600px;
+	/*background-color: lightgrey;*/
+	float: left;
+	color: #15424f;
+	padding-bottom: 9px;
+	border-bottom: 2px solid #15424f;	
+}
+
+#typeHome h2{
+	padding: 10px;
+	border-bottom: 2px solid #15424f;
+	margin-bottom: 10px;
+}
+
+.typeItem{
+	width: 180px;
+	height: 180px;
+	margin:10px;
+	background-color: #fff;
+	float: left;
+	text-align: center;
+	background-position: 0px 0px;
+}
+
+.typeItem a{
+	text-decoration: none;
+}
+
+.typeItem h3{
+	padding-top: 60px;
+	font-size: 30px;
+	font-weight: bolder;
+	color: #fff;	
+}
+
+.typeItem:hover {
+	background-position: 0px -180px;
+}
+
+
+#typeHome #cinema {
+	background-image: url(../foto/cinema_smallok.png);
+	background-repeat: no-repeat;
+	
+}
+
+#typeHome #serie {
+	background-image: url(../foto/serieTV_small.png);
+}
+
+#typeHome #cucina {
+	background-image: url(../foto/cucina_small.png);
+}
+
+#typeHome #talent {
+	background-image: url(../foto/talent_small.png);
+}
+
+#typeHome #bimbi {
+	background-image: url(../foto/barba_small.png);
+}
+
+#typeHome #sport {
+	background-image: url(../foto/sport_small.png);
+}
+
+
+
+/*_____________ GUIDA TV _______________*/
+
+
+#smallGuide {
+	width: 320px;
+	height: 470px;
+	float: right;
+	color: #15424f;
+	border-bottom: 2px solid #15424f;
+}
+
+#smallGuide h2{
+	padding: 10px;
+	border-bottom: 2px solid #15424f;
+}
+#smallGuide h4{
+	padding: 15px;
+}
+
+
+#smallGuide p{
+	font-size: 10px;
+	padding-top: 10px;
+}
+
+.boxItem{
+	width: 320px;
+	height: 120px;
+	float:left;
+}
+
+.boxItem:hover{
+	background-color: #15424f;
+	color: #fff;
+}
+
+.boxHour{
+	width: 100px;
+	height: 120px;
+	float:left;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.boxHour h3{
+	padding: 10px;
+	font-size: 25px;
+}
+
+.boxTitle{
+	width: 200px;
+	height: 120px;
+	float:left;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+
+
+
+/* _______________ BANNER ________________ */
+
+#bannerHome{
+	width: 960px;
+	height: 120px;
+	margin: 25px auto 15px auto;
+	background-color: #fff;
+}
+

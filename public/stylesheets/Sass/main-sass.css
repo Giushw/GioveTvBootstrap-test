@@ -1,0 +1,144 @@
+/* inclusione*/
+/*Variabili*/
+/*Background*/
+/*Font Color*/
+/*Dim Logo*/
+/*Font Size*/
+/*Text-shadow*/
+/*Padding*/
+/*esempi*/
+/* Regole Generali */
+* {
+  margin: 0;
+  padding: 0;
+  color: #15424f; }
+
+/* Font Monserrat */
+@font-face {
+  font-family: Montserrat;
+  src: url("../../fonts/Montserrat/Montserrat-Regular.ttf"); }
+/* _______________________ HEADER _____________________________ */
+.Chn_Hei {
+  height: 50px; }
+
+.Chn_Pad {
+  padding-left: 0;
+  padding-right: 0; }
+
+#header {
+  background-color: #4c8ea1; }
+
+/* ________________________ LOGO ______________________________ */
+.Log_Sp {
+  width: 50px;
+  height: 50px;
+  padding: 0px;
+  margin: 0px; }
+
+/* _________________ Menu di Navigazione _______________________ */
+.navbar-default .navbar-nav > li > a {
+  color: #d7ebf6; }
+
+.navbar-default .navbar-text {
+  color: #d7ebf6; }
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-default .navbar-form {
+  border-color: #4c8ea1; }
+
+#mainNav ul li:hover {
+  background-color: #15424f; }
+
+.active2 {
+  background-color: #15424f;
+  color: #fff; }
+
+.Res_Mar_B {
+  margin-bottom: 0; }
+
+a:hover {
+  filter: grayscale(70%); }
+
+.active2 {
+  background-color: #15424f; }
+
+.ov_Img {
+  color: #fff;
+  font-size: 25px;
+  text-shadow: 1px 3px 4px white; }
+
+/*Body*/
+body {
+  font-family: Montserrat, sans-serif;
+  background-color: #fff; }
+
+.carousel-label {
+  color: #fff; }
+
+.pre-scrollable2 {
+  overflow-y: scroll; }
+
+/*Breadcrumbs*/
+.bread {
+  padding-top: 50px;
+  padding-bottom: 0;
+  margin-bottom: 0;
+  font-size: 20px; }
+
+/*Footer*/
+#footer {
+  background-color: #4c8ea1; }
+
+.Ch_Pad1 {
+  padding-bottom: 30px; }
+
+.fatfooter {
+  background-color: #d7ebf6;
+  text-decoration: none; }
+  .fatfooter ul {
+    list-style-type: none; }
+
+form#search-form {
+  position: relative; }
+
+form#search-form ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-height: 200px;
+  overflow: auto;
+  z-index: 1;
+  border: 1px solid #DDDDDD;
+  background-color: white;
+  border-radius: 6px; }
+
+span.ui-helper-hidden-accessible {
+  display: none !important; }
+
+.ui-state-focus {
+  color: #ffffff;
+  background-color: #428bca; }
+
+.resiz_img {
+  width: 180px;
+  height: 180px; }
+
+/*
+@mixin circle($size:50px,$col:$samp){
+  background-color: $col;
+  border-radius: 100%;
+  width: $size;
+  height: $size;
+}
+
+#small-circle{
+  @include circle
+}
+#medium-circle{
+  @include circle(100px, red)
+}
+#big-circle{
+  @include circle(200px, yellow)
+}*/
+
+/*# sourceMappingURL=main-sass.css.map */

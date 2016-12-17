@@ -1,0 +1,61 @@
+/* _______________________ HEADER _____________________________ */
+.Chn_Hei{
+	height: $Dm_head;
+}
+.Chn_Pad{
+	padding-left: 0;
+	padding-right: 0;
+}
+#header {
+		background-color: $Bg_color_footer;
+}
+/* ________________________ LOGO ______________________________ */
+.Log_Sp {
+	width: $Dm_log_with;
+	height: $Dm_log_height;
+	padding: 0px;
+	margin: 0px;
+}
+/* _________________ Menu di Navigazione _______________________ */
+.navbar-default {
+	.navbar-nav > li > a {
+	color: $Col_font_nav;
+	}
+}
+.navbar-default {
+	.navbar-text {
+	color: $Col_font_nav;
+	}
+}
+.navbar-default {
+	.navbar-collapse, .navbar-default .navbar-form {
+border-color: $Bg_color_footer;
+	}
+}
+
+#mainNav ul li:hover {
+	background-color: $Bg_color_active;
+}
+
+.active2{
+	background-color: $Bg_color_active;
+	color: $Col_font_base;
+}
+
+.Res_Mar_B {
+    margin-bottom: 0;
+}
+a{
+  &:hover{
+    filter: grayscale(70%);
+  }
+}
+
+.active2{
+	background-color: $Bg_color_active;
+}
+.ov_Img {
+    color: $Col_font_base;
+		font-size: $Size_font;
+		text-shadow: 1px 3px 4px  $Shdw_col_text;
+  }

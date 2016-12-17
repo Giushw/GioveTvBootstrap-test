@@ -1,0 +1,30 @@
+/* inclusione*/
+
+@import 'variable';
+@import 'reset';
+@import "font";
+@import "header";
+@import "body";
+@import "bread";
+@import "footer";
+@import "search";
+@import "program";
+
+
+/*
+@mixin circle($size:50px,$col:$samp){
+  background-color: $col;
+  border-radius: 100%;
+  width: $size;
+  height: $size;
+}
+
+#small-circle{
+  @include circle
+}
+#medium-circle{
+  @include circle(100px, red)
+}
+#big-circle{
+  @include circle(200px, yellow)
+}*/
